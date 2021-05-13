@@ -1,0 +1,54 @@
+/* /Pages/HomeLayout.razor.rz.scp.css */
+@keyframes example-b-246jsfqz2x {
+    from {color: red;}
+    to {color: yellow;}
+}
+
+h1[b-246jsfqz2x] {
+    animation: animateBg-b-246jsfqz2x 8s infinite linear;
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    margin: 0%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-size: 300% 100%;
+    background-image: linear-gradient(90deg, #da3287, #ffde5e, #da3287, #ffde5e);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+@keyframes animateBg-b-246jsfqz2x {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-31k8pnl1jk] {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main[b-31k8pnl1jk] {
+    flex: 1;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
