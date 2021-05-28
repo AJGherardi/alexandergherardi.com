@@ -1,37 +1,55 @@
 /* /Pages/HomeLayout.razor.rz.scp.css */
-@keyframes example-b-246jsfqz2x {
-    from {color: red;}
-    to {color: yellow;}
-}
-
 h1[b-246jsfqz2x] {
-    animation: animateBg-b-246jsfqz2x 8s infinite linear;
     font-family: 'Fredoka One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
+    font-size: clamp(2rem, -0.875rem + 8.333vw, 3.5rem);
     margin: 0%;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
-    background-size: 300% 100%;
-    background-image: linear-gradient(90deg, #da3287, #ffde5e, #da3287, #ffde5e);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    user-select: none;   
+    color: rgba(255, 108, 104, 0.8);
 }
 
-@keyframes animateBg-b-246jsfqz2x {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
+h2[b-246jsfqz2x] {
+  font-family: 'Fredoka One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1rem, -0.4375rem + 4.1665vw, 1.75rem);
+  margin-left: 0rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;   
+  color: #000000;
+}
+
+a[b-246jsfqz2x] {
+  font-family: 'Fredoka One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1rem, -0.4375rem + 4.1665vw, 1.75rem);
+  margin-left: 0rem;
+  margin-top: 0.6rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;   
+  color: #607D8B;
+  text-decoration: none;
+}
+
+a:active[b-246jsfqz2x] {
+  color: rgba(255, 108, 104, 0.8);
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-31k8pnl1jk] {
@@ -42,13 +60,15 @@ h1[b-246jsfqz2x] {
     left: 0;
     height: 100%;
     width: 100%;
+    background-color:rgba(207, 216, 220, 0.6);
 }
 
 .main[b-31k8pnl1jk] {
     flex: 1;
-    justify-self: center;
-    align-self: center;
+    justify-self:left;
+    align-self: flex-start;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    margin-top: clamp(3rem, -0.4375rem + 4.1665vw, 3rem);
+    margin-left: clamp(3rem, -0.4375rem + 4.1665vw, 3rem);
 }
